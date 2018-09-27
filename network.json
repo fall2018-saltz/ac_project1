@@ -33,6 +33,11 @@
             "ports": [],
             "source": "subset.R",
             "target": "output_file.csv"
+        },
+        {
+            "ports": [],
+            "source": "output_file.csv",
+            "target": "script7243.R"
         }
     ],
     "nodes": [
@@ -40,19 +45,28 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
             "name": "data.csv"
         },
         {
-            "desc": "",
-            "name": "subset.R"
+            "name": "output_file.csv"
         },
         {
-            "name": "output_file.csv"
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "subset.R",
+            "task_status": "not started"
+        },
+        {
+            "desc": "",
+            "name": "script7243.R"
         }
     ],
-    "updated_at": "2018-09-27 15:28:37",
+    "updated_at": "2018-09-27 15:33:45",
     "url": "https://github.com/fall2018-saltz/ac_project1"
 }
