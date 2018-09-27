@@ -28,6 +28,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "subset.R"
+        },
+        {
+            "ports": [],
+            "source": "subset.R",
+            "target": "output_file.csv"
         }
     ],
     "nodes": [
@@ -48,6 +53,6 @@
             "name": "output_file.csv"
         }
     ],
-    "updated_at": "2018-09-27 15:28:29",
+    "updated_at": "2018-09-27 15:28:37",
     "url": "https://github.com/fall2018-saltz/ac_project1"
 }
